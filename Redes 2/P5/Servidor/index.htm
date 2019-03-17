@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;" />
+
+<title>FORMULARIO</title></head>
+<body>
+<center>
+<h1>Servidor Web</h1>
+</center>
+	<table border="0"  align="center">
+		
+		<tr>			
+			<center>
+				Get<br/>
+				<FORM ACTION="http://localhost:8000" method="GET">
+					Nombre del Archivo: 
+					<INPUT TYPE="text" NAME="Nombre">
+					<INPUT TYPE="submit" VALUE="Enviar">
+					<INPUT TYPE="reset" VALUE="Borrar">
+				</FORM>
+			</center>			
+		</tr>
+		<br/>
+		<tr>			
+			<center>
+				Post<br/>
+				<FORM ACTION="http://localhost:8000" method="POST">
+					Nombre del Archivo: 
+					<INPUT TYPE="text" NAME="Nombre">
+					<INPUT TYPE="submit" VALUE="Enviar">
+					<INPUT TYPE="reset" VALUE="Borrar">
+				</FORM>
+			</center>			
+		</tr>		
+	</table>
+</body>
+</html>
